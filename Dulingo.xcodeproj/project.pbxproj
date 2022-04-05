@@ -7,21 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C3C7DD727FB1E3100C1943E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3C7DD627FB1E3100C1943E /* HomeView.swift */; };
 		1CFE711627FB1881002BD4BF /* DulingoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE710627FB187E002BD4BF /* DulingoApp.swift */; };
 		1CFE711727FB1881002BD4BF /* DulingoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE710627FB187E002BD4BF /* DulingoApp.swift */; };
 		1CFE711827FB1881002BD4BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE710727FB187E002BD4BF /* ContentView.swift */; };
 		1CFE711927FB1881002BD4BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE710727FB187E002BD4BF /* ContentView.swift */; };
 		1CFE711A27FB1881002BD4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFE710827FB1881002BD4BF /* Assets.xcassets */; };
 		1CFE711B27FB1881002BD4BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFE710827FB1881002BD4BF /* Assets.xcassets */; };
+		1CFE712727FB1A9F002BD4BF /* Charactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE712627FB1A9F002BD4BF /* Charactor.swift */; };
+		1CFE712827FB1A9F002BD4BF /* Charactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFE712627FB1A9F002BD4BF /* Charactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C3C7DD627FB1E3100C1943E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1CFE710627FB187E002BD4BF /* DulingoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DulingoApp.swift; sourceTree = "<group>"; };
 		1CFE710727FB187E002BD4BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CFE710827FB1881002BD4BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CFE710D27FB1881002BD4BF /* Dulingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dulingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFE711327FB1881002BD4BF /* Dulingo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dulingo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CFE711527FB1881002BD4BF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		1CFE712627FB1A9F002BD4BF /* Charactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,8 @@
 		1CFE710527FB187E002BD4BF /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1CFE712527FB1A86002BD4BF /* Model */,
+				1CFE712427FB1A81002BD4BF /* View */,
 				1CFE710627FB187E002BD4BF /* DulingoApp.swift */,
 				1CFE710727FB187E002BD4BF /* ContentView.swift */,
 				1CFE710827FB1881002BD4BF /* Assets.xcassets */,
@@ -76,6 +83,22 @@
 				1CFE711527FB1881002BD4BF /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		1CFE712427FB1A81002BD4BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C3C7DD627FB1E3100C1943E /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1CFE712527FB1A86002BD4BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1CFE712627FB1A9F002BD4BF /* Charactor.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CFE711827FB1881002BD4BF /* ContentView.swift in Sources */,
+				1C3C7DD727FB1E3100C1943E /* HomeView.swift in Sources */,
+				1CFE712727FB1A9F002BD4BF /* Charactor.swift in Sources */,
 				1CFE711627FB1881002BD4BF /* DulingoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CFE711927FB1881002BD4BF /* ContentView.swift in Sources */,
+				1CFE712827FB1A9F002BD4BF /* Charactor.swift in Sources */,
 				1CFE711727FB1881002BD4BF /* DulingoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
